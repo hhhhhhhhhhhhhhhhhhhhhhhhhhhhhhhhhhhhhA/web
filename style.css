@@ -9,6 +9,14 @@ h1 {
     font-size: 24px; /* La dimensione del font dell'intestazione */
     font-family: Georgia, serif; /* La famiglia del font usata nell'intestazione */
 }
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+  }
+h1:hover {
+  animation: color-change 3s infinite;
+}
 h2 {
     color: rgb(0, 0, 0)
 }
